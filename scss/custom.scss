@@ -1,0 +1,61 @@
+$colorfondo: #ced4da;
+$adboxfon: #E9E9E9;
+$fondoverde:#58614E;
+// font family
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+    background-color: $colorfondo;
+    font-family: 'EB Garamond', serif;
+}
+
+.nav {
+    text-decoration: underline;
+    background-color: $fondoverde;
+    font-family: 'Oswald', sans-serif;
+    &:hover {
+        color: #f9faff;
+    }
+    li {
+        a {
+            color: #b8c6ac;
+        }
+    }
+}
+
+.active {
+    color: #e9e9e9 !important;
+}
+
+.disabled {
+    color: #999baa;
+}
+
+#adbox {
+    background-color: $adboxfon
+}
+
+#adbox2 {
+    background-color: #EEEEEE;
+}
+
+a {
+    color: black;
+}
+
+#contents {
+    background-color: $adboxfon;
+}
+
+.btn-primary {
+    background-color: grey;
+    border-color: grey;
+}
+
+#footer {
+    background-color: $fondoverde;
+    color: #b8c6ac;
+}
